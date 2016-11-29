@@ -1,11 +1,3 @@
-# 7-segment-driver-arduino
-
-Libraries and sketches to make a 7 segment driver for arduino using a shift-register.
-
-## Use
-
-```arduino
-
 void setup() {
 	int clock = 7; // pin number to clock
 	int data = 8; // pin number to data
@@ -23,5 +15,3 @@ void loop {
 	seg.sendByte(0x12);
 	delay(2000);
 }
-
-```
